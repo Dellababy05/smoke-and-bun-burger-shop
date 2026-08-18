@@ -11,7 +11,7 @@ export default function Home() {
       <section className="hero">
         <div className="container hero__inner">
           <div className="hero__copy">
-            <p className="eyebrow">Riverside, CA · Since 2018</p>
+            <p className="eyebrow">Linköping, SE · Since 2018</p>
             <h1>
               Flame-grilled.
               <br />
