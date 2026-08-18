@@ -50,7 +50,7 @@ export default function Footer() {
           <p>Rydsvägen 102B<br />Linköping, Sweden</p>
           <p>Open daily · 11am – 10pm</p>
         </div>
-
+      </div>
       <div className="site-footer__bottom">
         <p>© {new Date().getFullYear()} Smoke &amp; Bun. All rights reserved.</p>
       </div>
