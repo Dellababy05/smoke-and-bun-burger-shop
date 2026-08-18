@@ -2,7 +2,7 @@ import './About.css';
 import founderPhoto from '../assets/Founder.png';
 
 const TIMELINE = [
-  { year: '2018', text: 'Started as a single charcoal grill cart at the Riverside farmers market.' },
+  { year: '2018', text: 'Started as a single charcoal grill cart at the Linköping farmers market.' },
   { year: '2020', text: 'Opened our first storefront on Ember Street.' },
   { year: '2023', text: 'Served our 250,000th burger to the neighborhood.' },
   { year: '2026', text: 'Took Smoke & Bun online, so the whole city can order in.' },
