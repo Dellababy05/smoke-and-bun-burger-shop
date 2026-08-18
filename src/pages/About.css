@@ -16,6 +16,7 @@
   overflow: hidden;
   aspect-ratio: 4 / 5;
   box-shadow: var(--shadow-card);
+  max-width: 320px;
 }
 .about-founder__image img { width: 100%; height: 100%; object-fit: cover; }
 .about-founder__copy h2 { margin: 8px 0 16px; }

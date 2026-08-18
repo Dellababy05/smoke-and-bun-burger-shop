@@ -1,4 +1,5 @@
 import './About.css';
+import founderPhoto from '../assets/Founder.png';
 
 const TIMELINE = [
   { year: '2018', text: 'Started as a single charcoal grill cart at the Riverside farmers market.' },
@@ -24,13 +25,13 @@ export default function About() {
       <div className="container about-founder">
         <div className="about-founder__image">
           <img
-            src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=700&q=80"
-            alt="Portrait of Mateo Reyes, founder of Smoke & Bun, standing in front of the grill"
+            src={founderPhoto}
+            alt="Portrait of Jim Joe, founder of Smoke & Bun, standing in front of the grill"
           />
         </div>
         <div className="about-founder__copy">
           <p className="eyebrow">Meet the Founder</p>
-          <h2>Mateo Reyes</h2>
+          <h2>Jim Joe</h2>
           <p>
             Mateo grew up helping run his family's taqueria before trading tortillas for buns. In
             2018 he welded together a charcoal cart from spare parts and started grilling burgers
