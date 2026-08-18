@@ -47,10 +47,9 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Visit</h4>
-          <p>142 Ember Street<br />Riverside, CA 92501</p>
+          <p>Rydsvägen 102B<br />Linköping, Sweden</p>
           <p>Open daily · 11am – 10pm</p>
         </div>
-      </div>
 
       <div className="site-footer__bottom">
         <p>© {new Date().getFullYear()} Smoke &amp; Bun. All rights reserved.</p>

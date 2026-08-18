@@ -69,11 +69,11 @@ export default function Contact() {
         <div className="contact-info">
           <div>
             <h3>Visit</h3>
-            <p>142 Ember Street, Riverside, CA 92501</p>
+            <p>Rydsvägen 102B, Linköping, Sweden</p>
           </div>
           <div>
             <h3>Call</h3>
-            <p>(951) 555-0148</p>
+            <p>013-123 45 67</p>
           </div>
           <div>
             <h3>Hours</h3>
