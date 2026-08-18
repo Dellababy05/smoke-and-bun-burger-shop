@@ -1,4 +1,4 @@
-# Smoke and Bun
+# Smoke and Bun : https://smoke-and-bun-burger-shop.vercel.app/
 
 Smoke and Bun is a burger shop website I built with React. The idea behind it was to take a real business scenario, a local burger shop that only sells in person, and build the kind of website that would let it start taking orders online. Along the way this became a project for practicing routing, state management, form handling and building a full checkout flow from scratch, without relying on a real backend.
 
