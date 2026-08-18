@@ -1,0 +1,116 @@
+.menu-card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+.menu-card:hover { transform: translateY(-4px); }
+
+.menu-card__image-wrap {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+.menu-card__image-wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+.menu-card__category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--color-charcoal);
+  color: var(--color-mustard);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+
+.menu-card__body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.menu-card__title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+.menu-card__title-row h3 { font-size: 1.15rem; letter-spacing: 0.3px; }
+.menu-card__title-row .price { color: var(--color-chili); font-size: 1rem; }
+
+.menu-card__desc {
+  font-size: 0.88rem;
+  color: #5a5049;
+  min-height: 42px;
+}
+
+.menu-card__customize {
+  border: 1px dashed var(--color-paper-dim);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.menu-card__customize legend {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--color-chili);
+  padding: 0 4px;
+}
+.menu-card__option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+}
+
+.menu-card__footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.qty-stepper {
+  display: flex;
+  align-items: center;
+  border: 2px solid var(--color-charcoal);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.qty-stepper button {
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.qty-stepper span { min-width: 22px; text-align: center; font-family: var(--font-mono); font-size: 0.85rem; }
+
+.menu-card__customize-toggle {
+  background: transparent;
+  color: var(--color-chili);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.menu-card__add {
+  margin-left: auto;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  min-width: 108px;
+}
